@@ -6,11 +6,11 @@ app.get('/', function (req, res) {
 });
 
 app.get('/mars', function (req, res) {
-  res.send('Hello World!\n');
+  res.send('Hello mars!\n');
 });
 
 app.get('/me', function (req, res) {
-  res.send('Hello World!\n');
+  res.send('Hello me!\n');
 });
 
 app.listen(8080, function () {
