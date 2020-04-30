@@ -13,6 +13,10 @@ app.get('/me', function (req, res) {
   res.send('Hello me!\n');
 });
 
+app.get('/you', function (req, res) {
+  res.send('Hello you!\n');
+});
+
 app.listen(8080, function () {
   console.log('Example app listening on port 8080!');
 });
